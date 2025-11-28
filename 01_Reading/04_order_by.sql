@@ -1,8 +1,3 @@
-/*
-ORDER BY
-Lección 9.3: https://youtu.be/OuJerKzV5T0?t=6592
-*/
-
 -- Ordena todos los datos de la tabla "users" por edad (ascendente por defecto)
 SELECT * FROM users ORDER BY age;
 
