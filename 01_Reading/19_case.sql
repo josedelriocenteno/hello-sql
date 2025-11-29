@@ -1,8 +1,3 @@
-/*
-CASE
-Lección 10.13: https://youtu.be/OuJerKzV5T0?t=9486
-*/
-
 -- Obtiene todos los datos de la tabla "users" y establece condiciones de visualización de cadenas de texto según el valor de la edad 
 SELECT *,
 CASE 

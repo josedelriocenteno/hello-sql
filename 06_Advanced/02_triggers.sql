@@ -1,6 +1,5 @@
 /*
 TRIGGERS
-Lección 18.2: https://youtu.be/OuJerKzV5T0?t=18961
 */
 
 -- Crea una tabla de historial para usar en el ejemplo

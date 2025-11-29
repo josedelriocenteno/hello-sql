@@ -4,9 +4,6 @@ TIPOS DE RELACIONES
 
 /*
 Relación 1:1 (uno a uno)
-Lección 15.1: https://youtu.be/OuJerKzV5T0?t=13490
-Relación que indica que un registro en la tabla A se relaciona 
-con un sólo registro en la tabla B y viceversa.
 */
 
 -- El campo user_id de la tabla "dni" es clave foránea de la clave primaria user_id de la tabla "users"
@@ -21,9 +18,6 @@ CREATE TABLE dni(
 
 /*
 Relación 1:N (uno a muchos)
-Lección 15.2: https://youtu.be/OuJerKzV5T0?t=13732
-Relación que indica que un registro en la tabla A puede tener varios registros relacionados en la
-tabla B, pero un registro en la tabla B se relaciona con un sólo registro en la tabla A.
 */
 
 CREATE TABLE companies(
@@ -41,7 +35,6 @@ FOREIGN KEY(company_id) REFERENCES companies(company_id)
 
 /*
 Relación N:M (muchos a muchos)
-Lección 15.3: https://youtu.be/OuJerKzV5T0?t=14313
 Relación que indica que un un registro en la tabla A puede relacionarse
 con varios registros en la tabla B y viceversa.
 Requiere una tabla intermedia o de unión para establecer la relación.
@@ -76,7 +69,6 @@ INSERT y UPDATE para trabajar con JOIN
 
 /*
 1:1
-Lección 16.1: https://youtu.be/OuJerKzV5T0?t=14994
 */
 
 -- "dni" (Relación 1:1)
@@ -87,7 +79,6 @@ INSERT INTO dni (dni_number) VALUES (44444444);
 
 /*
 1:N
-Lección 16.2: https://youtu.be/OuJerKzV5T0?t=15203
 */
 
 -- "companies" y "users"  (Relación 1:N)
@@ -102,7 +93,6 @@ UPDATE users SET company_id = 1 WHERE user_id = 7;
 
 /*
 N:M
-Lección 16.3: https://youtu.be/OuJerKzV5T0?t=15474
 */
 
 -- "languages" y "users_languages"  (Relación N:M)
